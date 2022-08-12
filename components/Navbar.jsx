@@ -4,7 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState("#000");
+  const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
 
   const handleNav = () => {
@@ -36,16 +36,10 @@ const Navbar = () => {
             <Link href="/">Home</Link>
           </li>
           <li className="p-4">
-            <Link href="#result">Result</Link>
+            <Link href="#trending">Trending</Link>
           </li>
           <li className="p-4">
-            <Link href="/portofolio">Portofolio</Link>
-          </li>
-          <li className="p-4">
-            <Link href="/about">About</Link>
-          </li>
-          <li className="p-4">
-            <Link href="/contact">Contact Me</Link>
+            <Link href="#superhero">Superhero</Link>
           </li>
         </ul>
 
