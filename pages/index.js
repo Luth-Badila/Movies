@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Hero from "../components/Hero";
 import Trending from "../components/Trending";
+import Superhero from "../components/Superhero";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <Hero heading="Mau nonton film, acara Tv, dll secara gratis ?" message="Lihat dimana saja dan kapan saja tanpa iklan pula" />
       <Trending />
+      <Superhero />
     </div>
   );
 }

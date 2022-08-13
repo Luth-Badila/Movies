@@ -7,6 +7,7 @@ module.exports = {
         "hero-bg": "url('../public/bg.png')",
         "hero2-bg": "url('../public/hero2.jpg')",
         "hero3-bg": "url('../public/hero3.jpg')",
+        "trending-bg": "url('../public/trending.jpg')",
       },
     },
   },
