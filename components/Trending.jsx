@@ -9,14 +9,16 @@ import IgImg6 from "../public/ig-img-6.jpeg";
 
 const Trending = () => {
   return (
-    <div className="text-4xl font-bold text-white h-[100vh] bg-fixed bg-center bg-cover bg-trending-bg">
-      <div className="max-w-[1240px] mx-auto text-center py-24">
+    <div className="text-4xl font-bold text-white lg:h-screen h-auto bg-fixed bg-center bg-cover bg-trending-bg">
+      <div className="max-w-[1240px] mx-auto text-center pt-2">
         <p className="text-2xl font-bold">Trending films</p>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 p-4">
           <TrendingImg trendImg={IgImg1} />
           <TrendingImg trendImg={IgImg2} />
           <TrendingImg trendImg={IgImg3} />
           <TrendingImg trendImg={IgImg4} />
+          <TrendingImg trendImg={IgImg5} />
+          <TrendingImg trendImg={IgImg6} />
           <TrendingImg trendImg={IgImg5} />
           <TrendingImg trendImg={IgImg6} />
         </div>
