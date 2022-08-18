@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div id="contactus" className=" bg-gradient-to-b from-red-700 to-black h-auto text-white">
       <div className="flex items-center justify-center p-10">
-        <div className="flex gap-[10rem]">
+        <div className="flex flex-col lg:flex-row lg:gap-[10rem] gap-3">
           <div className="flex flex-col gap-2">
             <div>Follow Us</div>
             <div className="flex gap-2">
