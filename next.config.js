@@ -5,9 +5,7 @@ const nextConfig = {
 };
 
 module.exports = {
-  images: {
-    domains: ["images.unsplash.com", "www.sanity.io", "e7.pngegg.com", "w7.pngwing.com", "image.tmdb.org"],
-  },
+  domains: ["images.unsplash.com", "www.sanity.io", "e7.pngegg.com", "w7.pngwing.com", "image.tmdb.org"],
   nextConfig,
   env: {
     NEXT_TMDB_KEY: process.env.NEXT_TMDB_KEY,
