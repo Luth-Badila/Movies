@@ -9,7 +9,7 @@ import IgImg6 from "../public/ig-img-6.jpeg";
 
 const Trending = () => {
   return (
-    <div className="text-4xl font-bold text-white lg:h-screen h-auto bg-fixed bg-center bg-cover bg-trending-bg">
+    <div id="trending" className="text-4xl font-bold text-white lg:h-screen h-auto bg-fixed bg-center bg-cover bg-trending-bg">
       <div className="max-w-[1240px] mx-auto text-center pt-2">
         <p className="text-2xl font-bold">Trending films</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 p-4">

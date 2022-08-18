@@ -20,7 +20,7 @@ const Superhero = () => {
   }, []);
 
   return (
-    <div className="h-auto bg-hero7-bg bg-center bg-cover">
+    <div id="superhero" className="h-auto bg-hero7-bg bg-center bg-cover">
       <section className="md:h-full flex items-center text-gray-600">
         <div className="container px-5 py-5 mx-auto">
           <div className="text-center mb-12">
@@ -30,7 +30,7 @@ const Superhero = () => {
             {movies.map((movie, i) => {
               return (
                 <div key={i} className="p-4 flex sm:w-1/2 lg:w-1/3">
-                  <div className="h-full border-2 border-gray-200 hover:bg-indigo-700 border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="h-full border-2 border-gray-200 hover:bg-[#fceeed] border-opacity-60 rounded-lg overflow-hidden">
                     <Image className="lg:h-72 md:h-48 w-full object-center" src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} height={2500} width={2000} alt="blog" />
                     <div className="p-6  hover:text-black text-white transition duration-300 ease-in">
                       <h2 className="text-base font-medium text-indigo-300 mb-1">{movie.release_date}</h2>
